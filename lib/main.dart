@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:get/route_manager.dart';
-import 'package:main_app/app_pages.dart';
+import 'package:get/get.dart';
+import 'app_modules.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,8 +12,8 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      getPages: AppPages.pages,
-      initialRoute: Routes.LOGIN,
+      getPages: AppModules.pages,
+      initialRoute: 'splash',
     );
   }
 }

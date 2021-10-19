@@ -43,6 +43,24 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.15.0"
+  commons_app:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: e19ac67058e19fc3e61bf1ef228a7993011de8d5
+      url: "https://github.com/danilovalimsp/commons_app.git"
+    source: git
+    version: "0.0.1"
+  core_app:
+    dependency: transitive
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: fa1639dca44538c0e87a6c3c6da563458e0a80a1
+      url: "https://github.com/danilovalimsp/core_app.git"
+    source: git
+    version: "0.0.1"
   cupertino_icons:
     dependency: "direct main"
     description:
@@ -50,6 +68,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.3"
+  dio:
+    dependency: transitive
+    description:
+      name: dio
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
   fake_async:
     dependency: transitive
     description:
@@ -79,16 +104,23 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "70abfb0fb0e5a30990fbdf1fa1a98cc575a0f35e"
+      resolved-ref: f9be9d768828cbaea338260c9930ab93e18ba799
       url: "https://github.com/danilovalimsp/home_module.git"
     source: git
     version: "0.0.1"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "4.0.0"
   login_module:
     dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "200f53f7164b76eb3e47ccc3a94df1a52f62b2a5"
+      resolved-ref: cb10e0a83e6ee592af0cac8481899f6d35c4225c
       url: "https://github.com/danilovalimsp/login_module.git"
     source: git
     version: "0.0.1"
