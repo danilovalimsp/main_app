@@ -1,3 +1,4 @@
+import 'package:core_app/app/bindings/app_bindings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'app_modules.dart';
@@ -12,8 +13,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      getPages: AppModules.pages,
+      getPages: AppModules.modules,
       initialRoute: 'splash',
+      initialBinding: AppBinding(),
     );
   }
 }

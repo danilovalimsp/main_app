@@ -25,6 +25,10 @@ dependencies:
     sdk: flutter
   get:  
 
+  core_app:
+    git:
+      url: https://github.com/danilovalimsp/core_app.git
+
   login_module:
     git:
       url: https://github.com/danilovalimsp/login_module.git  

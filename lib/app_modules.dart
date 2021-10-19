@@ -3,7 +3,7 @@ import 'package:home_module/app/modules/app_modules.dart';
 import 'package:login_module/app/modules/app_modules.dart';
 
 abstract class AppModules {
-  static List<GetPage> pages = [
+  static List<GetPage> modules = [
     ...LoginModule.routers,
     ...HomeModule.routers,
   ];

@@ -53,11 +53,11 @@ packages:
     source: git
     version: "0.0.1"
   core_app:
-    dependency: transitive
+    dependency: "direct main"
     description:
       path: "."
       ref: HEAD
-      resolved-ref: fa1639dca44538c0e87a6c3c6da563458e0a80a1
+      resolved-ref: "2aa8e9549439605abf646d43e4e67250ef1aca9f"
       url: "https://github.com/danilovalimsp/core_app.git"
     source: git
     version: "0.0.1"
@@ -104,7 +104,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: f9be9d768828cbaea338260c9930ab93e18ba799
+      resolved-ref: "49adc13c5ebcd094ecce133094c79d742916a212"
       url: "https://github.com/danilovalimsp/home_module.git"
     source: git
     version: "0.0.1"
@@ -120,7 +120,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: cb10e0a83e6ee592af0cac8481899f6d35c4225c
+      resolved-ref: "05fe1a5edb0081976aa545dd6bcdac8b48847cec"
       url: "https://github.com/danilovalimsp/login_module.git"
     source: git
     version: "0.0.1"
